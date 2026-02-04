@@ -112,3 +112,17 @@ This application implements risk assessment aligned with NIST SP 800-30 "Guide f
 - Level filtering works correctly (`?level=Critical`)
 - Heatmap handles multiple risks in same cell
 - CSV export includes all table data
+
+## Deployment
+
+### Backend (Render)
+1. Create new Web Service on Render
+2. Connect your GitHub repo, set root directory to `backend`
+3. Render will auto-detect the Dockerfile
+4. Note your backend URL (e.g., `https://your-app.onrender.com`)
+
+### Frontend (Vercel)
+1. Import project on Vercel
+2. Set root directory to `frontend`
+3. Add environment variable: `VITE_API_URL=https://your-backend.onrender.com`
+4. Deploy
