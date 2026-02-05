@@ -2,6 +2,10 @@
 
 A full-stack web application for risk assessment using the standard likelihood × impact matrix, aligned with NIST SP 800-30 methodology.
 
+### Deployment
+client: https://grc-filter-task-takshakmudgal.vercel.app/
+server: https://grc-filter-task-takshakmudgal-production.up.railway.app
+
 ## Features
 
 **Backend (FastAPI + SQLite)**
